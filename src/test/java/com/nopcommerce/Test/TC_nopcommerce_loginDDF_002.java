@@ -12,7 +12,7 @@ import junit.framework.Assert;
 
 public class TC_nopcommerce_loginDDF_002 extends baseclass{
 
-	//@Test(dataProvider="user")
+	// @Test(dataProvider="user")
 	public void login(String username,String password) {
 		
 		driver.get(baseURL);
