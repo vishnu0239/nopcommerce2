@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-04T08:17:20 IST" name="Default suite" finished-at="2022-06-04T08:18:06 IST" duration-ms="46823">
+  <suite started-at="2022-06-06T11:01:15 IST" name="Default suite" finished-at="2022-06-06T11:01:42 IST" duration-ms="27063">
     <groups>
     </groups>
-    <test started-at="2022-06-04T08:17:20 IST" name="Default test" finished-at="2022-06-04T08:18:06 IST" duration-ms="46823">
+    <test started-at="2022-06-06T11:01:15 IST" name="Default test" finished-at="2022-06-06T11:01:42 IST" duration-ms="27063">
       <class name="com.nopcommerce.Test.TC_nopcommerce_loginDDF_002">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-04T08:17:20 IST" name="setup" finished-at="2022-06-04T08:17:26 IST" duration-ms="6333" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:15 IST" name="setup" finished-at="2022-06-06T11:01:20 IST" duration-ms="5131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-04T08:17:30 IST" name="login" data-provider="user" finished-at="2022-06-04T08:18:00 IST" duration-ms="30570" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:21 IST" name="login" data-provider="user" finished-at="2022-06-06T11:01:33 IST" duration-ms="11936" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-04T08:18:00 IST" name="login" data-provider="user" finished-at="2022-06-04T08:18:02 IST" duration-ms="1848" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:33 IST" name="login" data-provider="user" finished-at="2022-06-06T11:01:35 IST" duration-ms="2282" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -40,49 +40,15 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="junit.framework.ComparisonFailure">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#Email"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.0', revision: '86eb611648'
-System info: host: 'LAPTOP-HELD9GSD', ip: '192.168.11.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [753d4231a88f7bcc27814ca54256bd56, findElement {using=id, value=Email}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10516/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 753d4231a88f7bcc27814ca54256bd56]]>
+              <![CDATA[expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#Email"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.0', revision: '86eb611648'
-System info: host: 'LAPTOP-HELD9GSD', ip: '192.168.11.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [753d4231a88f7bcc27814ca54256bd56, findElement {using=id, value=Email}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10516/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 753d4231a88f7bcc27814ca54256bd56
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:376)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy20.clear(Unknown Source)
-at com.nopcommerce.page.loginpage.setuname(loginpage.java:32)
-at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:20)
+              <![CDATA[junit.framework.ComparisonFailure: expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,11 +79,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- junit.framework.ComparisonFailure -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-04T08:18:02 IST" name="login" data-provider="user" finished-at="2022-06-04T08:18:04 IST" duration-ms="2073" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:35 IST" name="login" data-provider="user" finished-at="2022-06-06T11:01:38 IST" duration-ms="2759" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -130,49 +96,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="junit.framework.ComparisonFailure">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#Email"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.0', revision: '86eb611648'
-System info: host: 'LAPTOP-HELD9GSD', ip: '192.168.11.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [753d4231a88f7bcc27814ca54256bd56, findElement {using=id, value=Email}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10516/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 753d4231a88f7bcc27814ca54256bd56]]>
+              <![CDATA[expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#Email"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.0', revision: '86eb611648'
-System info: host: 'LAPTOP-HELD9GSD', ip: '192.168.11.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [753d4231a88f7bcc27814ca54256bd56, findElement {using=id, value=Email}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10516/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 753d4231a88f7bcc27814ca54256bd56
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:376)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy20.clear(Unknown Source)
-at com.nopcommerce.page.loginpage.setuname(loginpage.java:32)
-at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:20)
+              <![CDATA[junit.framework.ComparisonFailure: expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -203,11 +135,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- junit.framework.ComparisonFailure -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-04T08:18:04 IST" name="login" data-provider="user" finished-at="2022-06-04T08:18:06 IST" duration-ms="2002" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:38 IST" name="login" data-provider="user" finished-at="2022-06-06T11:01:40 IST" duration-ms="2336" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -220,49 +152,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="junit.framework.ComparisonFailure">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#Email"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.0', revision: '86eb611648'
-System info: host: 'LAPTOP-HELD9GSD', ip: '192.168.11.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [753d4231a88f7bcc27814ca54256bd56, findElement {using=id, value=Email}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10516/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 753d4231a88f7bcc27814ca54256bd56]]>
+              <![CDATA[expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#Email"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.0', revision: '86eb611648'
-System info: host: 'LAPTOP-HELD9GSD', ip: '192.168.11.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [753d4231a88f7bcc27814ca54256bd56, findElement {using=id, value=Email}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10516/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 753d4231a88f7bcc27814ca54256bd56
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:376)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy20.clear(Unknown Source)
-at com.nopcommerce.page.loginpage.setuname(loginpage.java:32)
-at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:20)
+              <![CDATA[junit.framework.ComparisonFailure: expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -293,11 +191,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- junit.framework.ComparisonFailure -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-04T08:18:06 IST" name="teardown" finished-at="2022-06-04T08:18:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:40 IST" name="teardown" finished-at="2022-06-06T11:01:42 IST" duration-ms="1753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -12,16 +12,19 @@ import junit.framework.Assert;
 
 public class TC_nopcommerce_loginDDF_002 extends baseclass{
 
-	// @Test(dataProvider="user")
-	public void login(String username,String password) {
+	 @Test(dataProvider="user")
+	public void login(String username,String password) throws InterruptedException {
 		
 		driver.get(baseURL);
 		loginpage lp=new loginpage(driver);
 		lp.setuname(username);
 		lp.setpassword(password);
 		lp.clkbtn();
+		
 		Assert.assertEquals(driver.getTitle(), "Dashboard / nopCommerce administration");
 		logger.info("login success");
+		Thread.sleep(3000);
+		lp.logout();
 	}
 	
 	@DataProvider(name="user")
