@@ -1,0 +1,285 @@
+2022-05-31 10:58:20,676 [main] INFO nopCommerce - URL opened
+2022-05-31 11:36:31,768 [main] INFO nopCommerce - URL opened
+2022-05-31 11:36:37,538 [main] INFO nopCommerce - login success
+2022-05-31 11:43:53,975 [main] INFO nopCommerce - URL opened
+2022-05-31 11:43:59,220 [main] INFO nopCommerce - login success
+2022-05-31 11:47:15,580 [main] INFO nopCommerce - URL opened
+2022-05-31 11:47:19,586 [main] INFO nopCommerce - login success
+2022-05-31 11:55:03,473 [main] INFO nopCommerce - URL opened
+2022-05-31 11:55:08,470 [main] INFO nopCommerce - login success
+2022-05-31 16:23:29,806 [main] INFO nopCommerce - URL opened
+2022-05-31 16:23:38,303 [main] INFO nopCommerce - login success
+2022-05-31 16:26:04,719 [main] INFO nopCommerce - URL opened
+2022-05-31 16:26:09,463 [main] INFO nopCommerce - login success
+2022-05-31 16:27:15,664 [main] INFO nopCommerce - URL opened
+2022-05-31 16:27:18,993 [main] INFO nopCommerce - login success
+2022-05-31 16:30:43,361 [main] INFO nopCommerce - URL opened
+2022-05-31 16:30:47,230 [main] INFO nopCommerce - login success
+2022-05-31 17:44:33,645 [main] INFO nopCommerce - URL opened
+2022-05-31 17:44:46,105 [main] INFO nopCommerce - login success
+2022-05-31 17:45:42,913 [main] INFO nopCommerce - URL opened
+2022-05-31 17:45:48,766 [main] INFO nopCommerce - login success
+2022-05-31 17:53:48,209 [main] INFO nopCommerce - URL opened
+2022-05-31 17:53:57,467 [main] INFO nopCommerce - login success
+2022-05-31 17:54:59,027 [main] INFO nopCommerce - URL opened
+2022-05-31 17:55:06,618 [main] INFO nopCommerce - login success
+2022-05-31 18:06:51,118 [main] INFO nopCommerce - URL opened
+2022-05-31 18:06:55,090 [main] INFO nopCommerce - login success
+2022-05-31 20:40:35,523 [main] INFO nopCommerce - URL opened
+2022-05-31 20:40:39,770 [main] INFO nopCommerce - login success
+2022-06-01 08:00:48,001 [main] INFO nopCommerce - URL opened
+2022-06-01 08:01:02,097 [main] INFO nopCommerce - login success
+2022-06-01 10:05:53,157 [main] INFO nopCommerce - URL opened
+2022-06-01 10:06:03,690 [main] INFO nopCommerce - login success
+2022-06-01 10:09:33,407 [main] INFO nopCommerce - URL opened
+2022-06-01 10:09:37,670 [main] INFO nopCommerce - login success
+2022-06-01 11:37:10,444 [main] INFO nopCommerce - URL opened
+2022-06-01 11:37:14,715 [main] INFO nopCommerce - login success
+2022-06-01 11:39:38,444 [main] INFO nopCommerce - URL opened
+2022-06-01 11:39:42,391 [main] INFO nopCommerce - login success
+2022-06-01 11:39:49,323 [main] INFO nopCommerce - product search done
+2022-06-01 11:41:11,413 [main] INFO nopCommerce - URL opened
+2022-06-01 11:41:15,252 [main] INFO nopCommerce - login success
+2022-06-01 11:41:22,592 [main] INFO nopCommerce - product search done
+2022-06-01 11:46:58,953 [main] INFO nopCommerce - URL opened
+2022-06-01 11:47:06,175 [main] INFO nopCommerce - login success
+2022-06-01 11:47:18,601 [main] INFO nopCommerce - product search done
+2022-06-01 12:06:45,202 [main] INFO nopCommerce - URL opened
+2022-06-01 12:06:53,399 [main] INFO nopCommerce - login success
+2022-06-01 12:07:24,435 [main] INFO nopCommerce - product search done
+2022-06-01 12:08:38,046 [main] INFO nopCommerce - URL opened
+2022-06-01 12:09:00,849 [main] INFO nopCommerce - login success
+2022-06-01 12:09:19,014 [main] INFO nopCommerce - product search done
+2022-06-02 07:18:30,384 [main] INFO nopCommerce - URL opened
+2022-06-02 07:18:46,714 [main] INFO nopCommerce - login success
+2022-06-02 07:19:02,182 [main] INFO nopCommerce - product search done
+2022-06-02 07:35:55,760 [main] INFO nopCommerce - URL opened
+2022-06-02 07:36:00,420 [main] INFO nopCommerce - login success
+2022-06-02 07:36:11,552 [main] INFO nopCommerce - product search done
+2022-06-02 07:36:26,420 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 07:37:08,460 [main] INFO nopCommerce - URL opened
+2022-06-02 07:37:13,218 [main] INFO nopCommerce - login success
+2022-06-02 07:37:22,389 [main] INFO nopCommerce - product search done
+2022-06-02 07:37:24,230 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 07:39:51,277 [main] INFO nopCommerce - URL opened
+2022-06-02 07:39:55,492 [main] INFO nopCommerce - login success
+2022-06-02 07:40:04,997 [main] INFO nopCommerce - product search done
+2022-06-02 07:40:06,859 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 07:42:53,922 [main] INFO nopCommerce - URL opened
+2022-06-02 07:42:58,535 [main] INFO nopCommerce - login success
+2022-06-02 07:43:07,447 [main] INFO nopCommerce - product search done
+2022-06-02 07:43:09,177 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 08:07:45,075 [main] INFO nopCommerce - URL opened
+2022-06-02 08:07:50,350 [main] INFO nopCommerce - login success
+2022-06-02 08:08:00,940 [main] INFO nopCommerce - product search done
+2022-06-02 08:08:13,718 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 08:09:44,952 [main] INFO nopCommerce - URL opened
+2022-06-02 08:09:48,801 [main] INFO nopCommerce - login success
+2022-06-02 08:09:57,908 [main] INFO nopCommerce - product search done
+2022-06-02 08:09:59,891 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 08:18:14,905 [main] INFO nopCommerce - URL opened
+2022-06-02 08:18:27,839 [main] INFO nopCommerce - login success
+2022-06-02 08:18:38,157 [main] INFO nopCommerce - product search done
+2022-06-02 08:18:50,894 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 08:30:37,311 [main] INFO nopCommerce - URL opened
+2022-06-02 08:30:43,386 [main] INFO nopCommerce - login success
+2022-06-02 08:30:52,640 [main] INFO nopCommerce - product search done
+2022-06-02 08:30:54,722 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 08:35:39,245 [main] INFO nopCommerce - URL opened
+2022-06-02 08:35:43,123 [main] INFO nopCommerce - login success
+2022-06-02 08:35:52,148 [main] INFO nopCommerce - product search done
+2022-06-02 08:35:54,127 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 08:40:46,256 [main] INFO nopCommerce - URL opened
+2022-06-02 08:40:49,671 [main] INFO nopCommerce - login success
+2022-06-02 08:40:58,697 [main] INFO nopCommerce - product search done
+2022-06-02 08:41:00,653 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 09:48:41,708 [main] INFO nopCommerce - URL opened
+2022-06-02 09:50:20,066 [main] INFO nopCommerce - URL opened
+2022-06-02 09:50:25,425 [main] INFO nopCommerce - login success
+2022-06-02 09:50:51,025 [main] INFO nopCommerce - product search done
+2022-06-02 09:50:54,374 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 09:52:13,227 [main] INFO nopCommerce - URL opened
+2022-06-02 09:52:18,356 [main] INFO nopCommerce - login success
+2022-06-02 09:52:27,851 [main] INFO nopCommerce - product search done
+2022-06-02 09:52:29,612 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 09:54:02,091 [main] INFO nopCommerce - URL opened
+2022-06-02 09:54:39,061 [main] INFO nopCommerce - login success
+2022-06-02 09:55:01,782 [main] INFO nopCommerce - URL opened
+2022-06-02 09:56:19,963 [main] INFO nopCommerce - URL opened
+2022-06-02 09:56:39,909 [main] INFO nopCommerce - login success
+2022-06-02 09:56:50,350 [main] INFO nopCommerce - product search done
+2022-06-02 09:56:57,107 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 09:58:31,874 [main] INFO nopCommerce - URL opened
+2022-06-02 09:58:37,635 [main] INFO nopCommerce - login success
+2022-06-02 09:58:47,635 [main] INFO nopCommerce - product search done
+2022-06-02 09:58:50,096 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 10:07:34,247 [main] INFO nopCommerce - URL opened
+2022-06-02 10:07:40,175 [main] INFO nopCommerce - login success
+2022-06-02 10:07:49,968 [main] INFO nopCommerce - product search done
+2022-06-02 10:07:52,038 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 10:11:46,094 [main] INFO nopCommerce - URL opened
+2022-06-02 10:11:50,509 [main] INFO nopCommerce - login success
+2022-06-02 10:12:00,354 [main] INFO nopCommerce - product search done
+2022-06-02 10:12:02,528 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 10:18:12,565 [main] INFO nopCommerce - URL opened
+2022-06-02 10:18:18,627 [main] INFO nopCommerce - login success
+2022-06-02 10:18:28,385 [main] INFO nopCommerce - product search done
+2022-06-02 10:18:41,893 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 10:25:58,257 [main] INFO nopCommerce - URL opened
+2022-06-02 10:26:03,144 [main] INFO nopCommerce - login success
+2022-06-02 10:26:12,568 [main] INFO nopCommerce - product search done
+2022-06-02 10:26:16,506 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 10:35:50,600 [main] INFO nopCommerce - URL opened
+2022-06-02 10:36:26,975 [main] INFO nopCommerce - login success
+2022-06-02 10:36:49,121 [main] INFO nopCommerce - URL opened
+2022-06-02 10:36:56,295 [main] INFO nopCommerce - login success
+2022-06-02 10:37:20,468 [main] INFO nopCommerce - product search done
+2022-06-02 10:37:40,143 [main] INFO nopCommerce - addbtn clicked
+2022-06-02 10:44:22,694 [main] INFO nopCommerce - URL opened
+2022-06-02 10:44:42,199 [main] INFO nopCommerce - login success
+2022-06-02 11:16:27,174 [main] INFO nopCommerce - URL opened
+2022-06-02 11:16:48,832 [main] INFO nopCommerce - login success
+2022-06-02 11:17:05,181 [main] INFO nopCommerce - product search done
+2022-06-02 11:17:25,490 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 06:58:06,791 [main] INFO nopCommerce - URL opened
+2022-06-03 06:58:12,251 [main] INFO nopCommerce - login success
+2022-06-03 06:58:25,175 [main] INFO nopCommerce - product search done
+2022-06-03 06:58:29,208 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 06:59:30,936 [main] INFO nopCommerce - URL opened
+2022-06-03 06:59:35,164 [main] INFO nopCommerce - login success
+2022-06-03 06:59:44,374 [main] INFO nopCommerce - product search done
+2022-06-03 06:59:46,605 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 07:00:08,392 [main] INFO nopCommerce - URL opened
+2022-06-03 07:00:12,753 [main] INFO nopCommerce - login success
+2022-06-03 07:00:21,817 [main] INFO nopCommerce - product search done
+2022-06-03 07:00:23,361 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 07:14:25,593 [main] INFO nopCommerce - URL opened
+2022-06-03 07:14:30,784 [main] INFO nopCommerce - login success
+2022-06-03 07:14:39,907 [main] INFO nopCommerce - product search done
+2022-06-03 07:15:56,867 [main] INFO nopCommerce - URL opened
+2022-06-03 07:16:03,288 [main] INFO nopCommerce - login success
+2022-06-03 07:16:12,267 [main] INFO nopCommerce - product search done
+2022-06-03 07:16:41,243 [main] INFO nopCommerce - URL opened
+2022-06-03 07:16:44,295 [main] INFO nopCommerce - login success
+2022-06-03 07:16:54,340 [main] INFO nopCommerce - product search done
+2022-06-03 07:16:58,679 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 07:20:15,297 [main] INFO nopCommerce - URL opened
+2022-06-03 07:21:22,976 [main] INFO nopCommerce - URL opened
+2022-06-03 07:21:36,580 [main] INFO nopCommerce - login success
+2022-06-03 07:21:47,112 [main] INFO nopCommerce - product search done
+2022-06-03 07:21:59,435 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 07:33:00,419 [main] INFO nopCommerce - URL opened
+2022-06-03 07:33:04,353 [main] INFO nopCommerce - login success
+2022-06-03 07:33:13,396 [main] INFO nopCommerce - product search done
+2022-06-03 07:33:15,118 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 07:38:26,601 [main] INFO nopCommerce - URL opened
+2022-06-03 07:38:30,996 [main] INFO nopCommerce - login success
+2022-06-03 07:38:39,943 [main] INFO nopCommerce - product search done
+2022-06-03 07:38:41,796 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 07:40:16,471 [main] INFO nopCommerce - URL opened
+2022-06-03 07:40:19,270 [main] INFO nopCommerce - login success
+2022-06-03 07:40:28,210 [main] INFO nopCommerce - product search done
+2022-06-03 07:40:30,868 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 07:43:59,007 [main] INFO nopCommerce - URL opened
+2022-06-03 07:44:02,920 [main] INFO nopCommerce - login success
+2022-06-03 07:44:11,857 [main] INFO nopCommerce - product search done
+2022-06-03 07:44:13,386 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 07:45:57,814 [main] INFO nopCommerce - URL opened
+2022-06-03 07:46:01,276 [main] INFO nopCommerce - login success
+2022-06-03 07:46:10,208 [main] INFO nopCommerce - product search done
+2022-06-03 07:46:11,868 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 10:39:34,787 [main] INFO nopCommerce - URL opened
+2022-06-03 10:39:40,621 [main] INFO nopCommerce - login success
+2022-06-03 10:39:53,298 [main] INFO nopCommerce - product search done
+2022-06-03 10:39:56,553 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 11:00:17,712 [main] INFO nopCommerce - URL opened
+2022-06-03 11:00:23,536 [main] INFO nopCommerce - login success
+2022-06-03 11:00:53,540 [main] INFO nopCommerce - product search done
+2022-06-03 11:00:55,307 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 11:04:12,201 [main] INFO nopCommerce - URL opened
+2022-06-03 11:04:18,121 [main] INFO nopCommerce - login success
+2022-06-03 11:04:35,619 [main] INFO nopCommerce - product search done
+2022-06-03 11:04:37,440 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 11:30:04,102 [main] INFO nopCommerce - URL opened
+2022-06-03 11:30:15,352 [main] INFO nopCommerce - login success
+2022-06-03 11:30:27,092 [main] INFO nopCommerce - product search done
+2022-06-03 11:30:30,342 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 11:31:27,171 [main] INFO nopCommerce - URL opened
+2022-06-03 11:31:48,353 [main] INFO nopCommerce - login success
+2022-06-03 11:32:08,059 [main] INFO nopCommerce - product search done
+2022-06-03 11:32:10,848 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 11:46:14,978 [main] INFO nopCommerce - URL opened
+2022-06-03 11:46:25,473 [main] INFO nopCommerce - login success
+2022-06-03 11:47:40,018 [main] INFO nopCommerce - URL opened
+2022-06-03 11:47:45,719 [main] INFO nopCommerce - login success
+2022-06-03 11:50:46,089 [main] INFO nopCommerce - URL opened
+2022-06-03 11:50:54,428 [main] INFO nopCommerce - login success
+2022-06-03 11:51:14,446 [main] INFO nopCommerce - product search done
+2022-06-03 11:51:17,574 [main] INFO nopCommerce - addbtn clicked
+2022-06-03 12:07:57,739 [main] INFO nopCommerce - URL opened
+2022-06-03 12:08:03,237 [main] INFO nopCommerce - login success
+2022-06-03 12:08:38,295 [main] INFO nopCommerce - product search done
+2022-06-03 12:08:43,401 [main] INFO nopCommerce - addbtn clicked
+2022-06-04 06:40:52,286 [main] INFO nopCommerce - URL opened
+2022-06-04 06:40:57,065 [main] INFO nopCommerce - login success
+2022-06-04 06:41:13,158 [main] INFO nopCommerce - product search done
+2022-06-04 06:41:15,748 [main] INFO nopCommerce - addbtn clicked
+2022-06-04 06:44:14,897 [main] INFO nopCommerce - URL opened
+2022-06-04 06:44:18,667 [main] INFO nopCommerce - login success
+2022-06-04 06:45:16,107 [main] INFO nopCommerce - URL opened
+2022-06-04 06:45:19,664 [main] INFO nopCommerce - login success
+2022-06-04 06:45:37,039 [main] INFO nopCommerce - product search done
+2022-06-04 06:45:39,596 [main] INFO nopCommerce - addbtn clicked
+2022-06-04 06:52:00,455 [main] INFO nopCommerce - URL opened
+2022-06-04 06:52:05,642 [main] INFO nopCommerce - login success
+2022-06-04 06:52:32,351 [main] INFO nopCommerce - URL opened
+2022-06-04 06:52:35,123 [main] INFO nopCommerce - login success
+2022-06-04 06:56:28,608 [main] INFO nopCommerce - URL opened
+2022-06-04 06:56:32,520 [main] INFO nopCommerce - login success
+2022-06-04 08:18:00,871 [main] INFO nopCommerce - login success
+2022-06-04 10:14:53,673 [main] INFO nopCommerce - URL opened
+2022-06-04 10:14:58,843 [main] INFO nopCommerce - login success
+2022-06-04 10:15:20,561 [main] INFO nopCommerce - product search done
+2022-06-04 10:15:32,405 [main] INFO nopCommerce - addbtn clicked
+2022-06-04 10:35:38,190 [main] INFO nopCommerce - URL opened
+2022-06-04 10:35:42,126 [main] INFO nopCommerce - login success
+2022-06-04 10:48:50,283 [main] INFO nopCommerce - URL opened
+2022-06-04 10:48:54,747 [main] INFO nopCommerce - login success
+2022-06-04 10:49:09,975 [main] INFO nopCommerce - product search done
+2022-06-04 10:49:11,779 [main] INFO nopCommerce - addbtn clicked
+2022-06-04 10:50:32,501 [main] INFO nopCommerce - URL opened
+2022-06-04 10:50:37,998 [main] INFO nopCommerce - login success
+2022-06-04 10:50:54,137 [main] INFO nopCommerce - product search done
+2022-06-04 10:50:55,531 [main] INFO nopCommerce - addbtn clicked
+2022-06-04 17:21:00,922 [main] INFO nopCommerce - URL opened
+2022-06-04 17:21:07,048 [main] INFO nopCommerce - login success
+2022-06-04 17:24:58,705 [main] INFO nopCommerce - URL opened
+2022-06-04 17:25:04,923 [main] INFO nopCommerce - login success
+2022-06-04 17:25:24,955 [main] INFO nopCommerce - product search done
+2022-06-04 17:25:26,959 [main] INFO nopCommerce - addbtn clicked
+2022-06-04 17:26:44,637 [main] INFO nopCommerce - URL opened
+2022-06-04 17:26:48,274 [main] INFO nopCommerce - login success
+2022-06-04 21:02:31,923 [main] INFO nopCommerce - URL opened
+2022-06-04 21:02:36,658 [main] INFO nopCommerce - login success
+2022-06-04 21:02:52,937 [main] INFO nopCommerce - product search done
+2022-06-04 21:02:54,630 [main] INFO nopCommerce - addbtn clicked
+2022-06-04 21:05:16,818 [main] INFO nopCommerce - URL opened
+2022-06-04 21:05:22,695 [main] INFO nopCommerce - login success
+2022-06-04 21:05:38,628 [main] INFO nopCommerce - product search done
+2022-06-04 21:05:40,740 [main] INFO nopCommerce - addbtn clicked
+2022-06-06 07:07:58,173 [main] INFO nopCommerce - URL opened
+2022-06-06 07:08:03,994 [main] INFO nopCommerce - login success
+2022-06-06 07:08:25,209 [main] INFO nopCommerce - product search done
+2022-06-06 07:08:27,250 [main] INFO nopCommerce - addbtn clicked
+2022-06-06 07:12:15,532 [main] INFO nopCommerce - URL opened
+2022-06-06 07:12:25,704 [main] INFO nopCommerce - login success
+2022-06-06 07:12:42,387 [main] INFO nopCommerce - product search done
+2022-06-06 07:12:44,879 [main] INFO nopCommerce - addbtn clicked
+2022-06-06 07:14:43,468 [main] INFO nopCommerce - URL opened
+2022-06-06 07:14:49,727 [main] INFO nopCommerce - login success
+2022-06-06 07:15:13,113 [main] INFO nopCommerce - product search done
+2022-06-06 07:15:14,792 [main] INFO nopCommerce - addbtn clicked
+2022-06-06 07:48:33,237 [main] INFO nopCommerce - URL opened
+2022-06-06 07:48:42,630 [main] INFO nopCommerce - login success
+2022-06-06 07:48:58,578 [main] INFO nopCommerce - product search done
+2022-06-06 07:49:01,266 [main] INFO nopCommerce - addbtn clicked
