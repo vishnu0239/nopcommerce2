@@ -1,15 +1,14 @@
 package com.nopcommerce.Test;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
-import org.openqa.selenium.JavascriptException;
-import org.testng.annotations.Test;
+
 
 import com.nopcommerce.page.SearchProduct;
 import com.nopcommerce.page.addProduct;
 import com.nopcommerce.page.loginpage;
-
-import junit.framework.Assert;
 
 public class TC_nopcommerce_login_001 extends baseclass{
 
@@ -23,7 +22,7 @@ public class TC_nopcommerce_login_001 extends baseclass{
 		lp.setuname(username);
 		lp.setpassword(password);
 		lp.clkbtn();
-		Assert.assertEquals(driver.getTitle(), "Dashboard / nopCommerce administration");
+		AssertJUnit.assertEquals(driver.getTitle(), "Dashboard / nopCommerce administration");
 		logger.info("login success");
 		screanshot("login");
 		Thread.sleep(3000);

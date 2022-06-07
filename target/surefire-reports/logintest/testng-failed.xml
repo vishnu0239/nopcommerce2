@@ -11,6 +11,13 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.nopcommerce.Test.TC_nopcommerce_login_001 -->
+      <class name="com.nopcommerce.Test.TC_nopcommerce_loginDDF_002">
+        <methods>
+          <include name="setup"/>
+          <include name="login" invocation-numbers="1 2 3"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.nopcommerce.Test.TC_nopcommerce_loginDDF_002 -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [logintest] -->

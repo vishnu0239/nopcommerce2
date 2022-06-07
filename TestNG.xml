@@ -7,6 +7,9 @@
 <parameter name="browser" value="chrome"/>
 <classes>
 <class name="com.nopcommerce.Test.TC_nopcommerce_login_001"/>
+<class name="com.nopcommerce.Test.TC_nopcommerce_loginDDF_002"/>
+<class name="com.nopcommerce.Test.TC_nopcommerce_Addcustomer_Test_003">
+</class>
 </classes>
 </test>
 </suite>

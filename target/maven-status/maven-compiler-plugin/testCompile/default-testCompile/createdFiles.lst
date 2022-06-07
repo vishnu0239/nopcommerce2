@@ -1,8 +1,10 @@
 com\nopcommerce\page\SearchProduct.class
+com\nopcommerce\Test\TC_nopcommerce_Addcustomer_Test_003.class
 com\nopcommerce\page\loginpage.class
 com\nopcommerce\Test\TC_nopcommerce_loginDDF_002.class
 com\nopcommerce\Test\TC_nopcommerce_login_001.class
 com\nopcommerce\page\addProduct.class
 com\nopcommerce\utils\Excel_util.class
 com\nopcommerce\utils\Readconfig.class
+com\nopcommerce\page\addcustomer.class
 com\nopcommerce\Test\baseclass.class

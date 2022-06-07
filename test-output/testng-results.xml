@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+<testng-results ignored="0" total="6" passed="2" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-06T11:01:15 IST" name="Default suite" finished-at="2022-06-06T11:01:42 IST" duration-ms="27063">
+  <suite started-at="2022-06-07T15:06:29 IST" name="logintest" finished-at="2022-06-07T15:07:37 IST" duration-ms="68386">
     <groups>
     </groups>
-    <test started-at="2022-06-06T11:01:15 IST" name="Default test" finished-at="2022-06-06T11:01:42 IST" duration-ms="27063">
-      <class name="com.nopcommerce.Test.TC_nopcommerce_loginDDF_002">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:15 IST" name="setup" finished-at="2022-06-06T11:01:20 IST" duration-ms="5131" status="PASS">
+    <test started-at="2022-06-07T15:06:29 IST" name="Test1" finished-at="2022-06-07T15:07:37 IST" duration-ms="68386">
+      <class name="com.nopcommerce.Test.TC_nopcommerce_Addcustomer_Test_003">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_Addcustomer_Test_003@175c2241]" started-at="2022-06-07T15:07:16 IST" name="setup" finished-at="2022-06-07T15:07:18 IST" duration-ms="1646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:21 IST" name="login" data-provider="user" finished-at="2022-06-06T11:01:33 IST" duration-ms="11936" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_Addcustomer_Test_003@175c2241]" started-at="2022-06-07T15:07:18 IST" name="loginTest" finished-at="2022-06-07T15:07:37 IST" duration-ms="19096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_Addcustomer_Test_003@175c2241]" started-at="2022-06-07T15:07:37 IST" name="teardown" finished-at="2022-06-07T15:07:37 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nopcommerce.Test.TC_nopcommerce_Addcustomer_Test_003 -->
+      <class name="com.nopcommerce.Test.TC_nopcommerce_loginDDF_002">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@4afcd809]" started-at="2022-06-07T15:06:56 IST" name="setup" finished-at="2022-06-07T15:06:59 IST" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@4afcd809]" started-at="2022-06-07T15:06:59 IST" name="login" data-provider="user" finished-at="2022-06-07T15:07:11 IST" duration-ms="11532" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:33 IST" name="login" data-provider="user" finished-at="2022-06-06T11:01:35 IST" duration-ms="2282" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@4afcd809]" started-at="2022-06-07T15:07:11 IST" name="login" data-provider="user" finished-at="2022-06-07T15:07:13 IST" duration-ms="1775" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -40,15 +54,19 @@
               </value>
             </param>
           </params>
-          <exception class="junit.framework.ComparisonFailure">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>]]>
+              <![CDATA[expected [Dashboard / nopCommerce administration] but found [Your store. Login]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>
-at junit.framework.Assert.assertEquals(Assert.java:81)
-at junit.framework.Assert.assertEquals(Assert.java:87)
-at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:24)
+              <![CDATA[java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -79,11 +97,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:35 IST" name="login" data-provider="user" finished-at="2022-06-06T11:01:38 IST" duration-ms="2759" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@4afcd809]" started-at="2022-06-07T15:07:13 IST" name="login" data-provider="user" finished-at="2022-06-07T15:07:14 IST" duration-ms="1542" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -96,15 +114,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="junit.framework.ComparisonFailure">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>]]>
+              <![CDATA[expected [Dashboard / nopCommerce administration] but found [Your store. Login]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>
-at junit.framework.Assert.assertEquals(Assert.java:81)
-at junit.framework.Assert.assertEquals(Assert.java:87)
-at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:24)
+              <![CDATA[java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,11 +157,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:38 IST" name="login" data-provider="user" finished-at="2022-06-06T11:01:40 IST" duration-ms="2336" status="FAIL">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@4afcd809]" started-at="2022-06-07T15:07:14 IST" name="login" data-provider="user" finished-at="2022-06-07T15:07:16 IST" duration-ms="1668" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -152,15 +174,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="junit.framework.ComparisonFailure">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>]]>
+              <![CDATA[expected [Dashboard / nopCommerce administration] but found [Your store. Login]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<Your store. Logi...> but was:<Dashboard / nopCommerce administratio...>
-at junit.framework.Assert.assertEquals(Assert.java:81)
-at junit.framework.Assert.assertEquals(Assert.java:87)
-at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:24)
+              <![CDATA[java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.nopcommerce.Test.TC_nopcommerce_loginDDF_002.login(TC_nopcommerce_loginDDF_002.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -191,15 +217,100 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@618b19ad]" started-at="2022-06-06T11:01:40 IST" name="teardown" finished-at="2022-06-06T11:01:42 IST" duration-ms="1753" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_loginDDF_002@4afcd809]" started-at="2022-06-07T15:07:16 IST" name="teardown" finished-at="2022-06-07T15:07:16 IST" duration-ms="468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.nopcommerce.Test.TC_nopcommerce_loginDDF_002 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.nopcommerce.Test.TC_nopcommerce_login_001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_login_001@51399530]" started-at="2022-06-07T15:06:29 IST" name="setup" finished-at="2022-06-07T15:06:34 IST" duration-ms="4507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_login_001@51399530]" started-at="2022-06-07T15:06:34 IST" name="loginTest" finished-at="2022-06-07T15:06:55 IST" duration-ms="21055" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'LAPTOP-HELD9GSD', ip: '192.168.11.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b50f3df0da1ede34f0f4ddfd0d408df3, getElementText {id=34cbd541-37de-4ef5-a7e5-b5a6fd41b7d7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:8608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8608/devtool..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b50f3df0da1ede34f0f4ddfd0d408df3)] -> xpath: //*[@id="products-grid"]/tbody/tr[7]/td[4]]
+Session ID: b50f3df0da1ede34f0f4ddfd0d408df3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'LAPTOP-HELD9GSD', ip: '192.168.11.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b50f3df0da1ede34f0f4ddfd0d408df3, getElementText {id=34cbd541-37de-4ef5-a7e5-b5a6fd41b7d7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\vishn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:8608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8608/devtool..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b50f3df0da1ede34f0f4ddfd0d408df3)] -> xpath: //*[@id="products-grid"]/tbody/tr[7]/td[4]]
+Session ID: b50f3df0da1ede34f0f4ddfd0d408df3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
+at com.nopcommerce.page.SearchProduct.table(SearchProduct.java:63)
+at com.nopcommerce.Test.TC_nopcommerce_login_001.loginTest(TC_nopcommerce_login_001.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopcommerce.Test.TC_nopcommerce_login_001@51399530]" started-at="2022-06-07T15:06:55 IST" name="teardown" finished-at="2022-06-07T15:06:56 IST" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nopcommerce.Test.TC_nopcommerce_login_001 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- logintest -->
 </testng-results>

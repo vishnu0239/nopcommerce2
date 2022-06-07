@@ -1,14 +1,15 @@
 package com.nopcommerce.Test;
 
+import org.testng.annotations.Test;
+import org.testng.Assert;
+
 import java.io.IOException;
 
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+
 
 import com.nopcommerce.page.loginpage;
 import com.nopcommerce.utils.Excel_util;
-
-import junit.framework.Assert;
 
 public class TC_nopcommerce_loginDDF_002 extends baseclass{
 
