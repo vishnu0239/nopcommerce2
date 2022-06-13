@@ -70,7 +70,7 @@ public class addcustomer {
 		txtFname.sendKeys("vishnu");
 		txtLname.sendKeys("vardhan");
 		Cname.sendKeys("XYZ");
-	
+		
 	}
 	public void setgender(String gender) {
 		if(gender.equals("Male")) {
@@ -81,6 +81,10 @@ public class addcustomer {
 				
 			}
 		}
+	}
+	public void dob() throws InterruptedException {
+		calender cal=new calender(ldriver);
+		cal.selectDate();
 	}
 	public void newsLetter(String value) {
 		Actions action=new Actions(ldriver);

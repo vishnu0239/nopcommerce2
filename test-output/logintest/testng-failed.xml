@@ -6,13 +6,26 @@
     <classes>
       <class name="com.nopcommerce.Test.TC_nopcommerce_login_001">
         <methods>
+          <include name="endReport"/>
+          <include name="setupExtent"/>
           <include name="loginTest"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- com.nopcommerce.Test.TC_nopcommerce_login_001 -->
+      <class name="com.nopcommerce.Test.TC_nopcommerce_Addcustomer_Test_003">
+        <methods>
+          <include name="endReport"/>
+          <include name="setupExtent"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.nopcommerce.Test.TC_nopcommerce_Addcustomer_Test_003 -->
       <class name="com.nopcommerce.Test.TC_nopcommerce_loginDDF_002">
         <methods>
+          <include name="endReport"/>
+          <include name="setupExtent"/>
           <include name="setup"/>
           <include name="login" invocation-numbers="1 2 3"/>
           <include name="teardown"/>

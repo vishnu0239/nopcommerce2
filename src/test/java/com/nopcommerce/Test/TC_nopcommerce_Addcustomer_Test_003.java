@@ -35,7 +35,7 @@ public class TC_nopcommerce_Addcustomer_Test_003 extends baseclass{
 	adcus.savebtn();
 	logger.info("Validation done for customer");
 	String validation=driver.findElement(By.xpath("//div[@class='validation-summary-errors']")).getText();
-
+	
 
 /*	if(validation.equals("The new customer has been added successfully.")) {
 		Assert.assertTrue(true);

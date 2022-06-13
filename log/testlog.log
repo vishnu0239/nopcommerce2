@@ -390,3 +390,42 @@
 2022-06-07 15:07:36,072 - nopCommerce -INFO - customer roll selected
 2022-06-07 15:07:37,119 - nopCommerce -INFO - Validation done for customer
 2022-06-07 15:07:37,630 - nopCommerce -INFO - Testcase failed
+2022-06-07 15:26:02,514 - nopCommerce -INFO - URL opened
+2022-06-07 15:26:09,741 - nopCommerce -INFO - login success
+2022-06-07 15:26:44,444 - nopCommerce -INFO - login success
+2022-06-07 15:27:05,425 - nopCommerce -INFO - URL opened
+2022-06-07 15:27:11,817 - nopCommerce -INFO - login success
+2022-06-07 15:27:22,335 - nopCommerce -INFO - Gender male selected
+2022-06-07 15:27:27,105 - nopCommerce -INFO - customer roll selected
+2022-06-07 15:27:30,011 - nopCommerce -INFO - Validation done for customer
+2022-06-07 15:37:42,111 - nopCommerce -INFO - URL opened
+2022-06-07 15:37:49,674 - nopCommerce -INFO - login success
+2022-06-07 15:38:10,130 - nopCommerce -INFO - product search done
+2022-06-07 15:38:14,712 - nopCommerce -INFO - addbtn clicked
+2022-06-07 15:38:40,594 - nopCommerce -INFO - login success
+2022-06-07 15:39:01,653 - nopCommerce -INFO - URL opened
+2022-06-07 15:39:06,065 - nopCommerce -INFO - login success
+2022-06-07 15:39:16,040 - nopCommerce -INFO - Gender male selected
+2022-06-07 15:39:20,485 - nopCommerce -INFO - customer roll selected
+2022-06-07 15:39:22,533 - nopCommerce -INFO - Validation done for customer
+2022-06-07 20:57:39,906 - nopCommerce -INFO - URL opened
+2022-06-07 20:57:45,790 - nopCommerce -INFO - login success
+2022-06-07 20:57:54,630 - nopCommerce -INFO - Gender male selected
+2022-06-07 20:57:58,735 - nopCommerce -INFO - customer roll selected
+2022-06-07 20:58:00,932 - nopCommerce -INFO - Validation done for customer
+2022-06-10 08:52:34,586 - nopCommerce -INFO - URL opened
+2022-06-10 08:52:41,478 - nopCommerce -INFO - login success
+2022-06-10 08:53:13,139 - nopCommerce -INFO - login success
+2022-06-10 08:53:30,349 - nopCommerce -INFO - URL opened
+2022-06-10 08:53:33,337 - nopCommerce -INFO - login success
+2022-06-10 08:53:46,141 - nopCommerce -INFO - Gender male selected
+2022-06-10 08:53:51,187 - nopCommerce -INFO - customer roll selected
+2022-06-10 08:53:53,212 - nopCommerce -INFO - Validation done for customer
+2022-06-13 19:13:35,658 - nopCommerce -INFO - URL opened
+2022-06-13 19:13:42,267 - nopCommerce -INFO - login success
+2022-06-13 19:14:17,191 - nopCommerce -INFO - login success
+2022-06-13 19:14:39,553 - nopCommerce -INFO - URL opened
+2022-06-13 19:14:44,152 - nopCommerce -INFO - login success
+2022-06-13 19:14:52,591 - nopCommerce -INFO - Gender male selected
+2022-06-13 19:14:56,979 - nopCommerce -INFO - customer roll selected
+2022-06-13 19:15:00,078 - nopCommerce -INFO - Validation done for customer
